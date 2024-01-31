@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.info.mybook.fragments.Home"
+        android:label="Home Fragment"
+        app:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.info.mybook.fragments.Cart"
+        android:label="Cart Fragment"
+        app:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.info.mybook.fragments.Profile"
+        android:label="Profile Fragment"
+        app:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.info.mybook.fragments.Settings"
+        android:label="Settings Fragment"
+        app:layout="@layout/fragment_settings" />
+
+    <!-- Add more fragments as needed -->
+
+</navigation>

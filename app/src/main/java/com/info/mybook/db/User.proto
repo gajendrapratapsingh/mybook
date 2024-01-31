@@ -1,0 +1,10 @@
+package com.info.mybook.db
+
+// User.proto
+syntax = "proto3";
+
+message User {
+  required string userId = 1;
+  required string username = 2;
+  required string email = 3;
+}
